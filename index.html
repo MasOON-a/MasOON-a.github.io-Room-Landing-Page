@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  
+  <title>Frontend Mentor | Room homepage</title>
+</head>
+<body>
+  <section>
+    <nav style="position: absolute; z-index: 1;">
+      <div style="width:fit-content; position: absolute;" class="c mobileOnly" onClick="burgerClick()">
+        <img src="./images/icon-hamburger.svg" class="nav-burger">
+      </div>
+      <img src="./images/logo.svg" alt="room" class="nav-logo">
+      <a href="" class="nav-link dn">Home<div class="link-underline"></div></a>
+      <a href="" class="nav-link dn">Shop<div class="link-underline"></div></a>
+      <a href="" class="nav-link dn">About<div class="link-underline"></div></a>
+      <a href="" class="nav-link dn">Contact<div class="link-underline"></div></a>
+    </nav>
+    <div class="row1 1">
+      <div class="row1-img img1" style="width: 100%; height:100%;"></div>
+      <div class="row1-text">
+        <h1 class="row1-text-head">Discover innovative ways to decorate</h1>
+        <p class="row1-text-body">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+        <div class="row1-shop c">
+          <p>Shop now</p>
+          <img src="./images/icon-arrow.svg" alt="arrow">
+        </div>
+      </div>
+      <div class="slide-nav">
+        <button style="background-image: url(./images/icon-angle-left.svg)" class="left-button c"></button>
+        <button style="background-image: url(./images/icon-angle-right.svg)" class="right-button c"></button>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="about-img about-img-1">
+      </div>
+      <div class="about-text">
+        <h1>About our furniture</h1>
+        <p>Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+          </p>
+      </div>
+      <div class="about-img about-img-2">
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
